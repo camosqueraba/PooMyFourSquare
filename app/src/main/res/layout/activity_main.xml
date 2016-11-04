@@ -30,29 +30,38 @@
         android:layout_height="wrap_content"
         android:layout_weight="0.06">
 
-        <ImageButton
+        <Button
+            android:text="Desayuno"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:id="@+id/imageButtonDesayuno"
+            android:id="@+id/buttonDesayuno"
+            android:layout_weight="0.3"
+            android:drawableTop="@mipmap/breakfast_intent"
+            android:textAllCaps="false"
+            android:backgroundTint="?android:attr/colorSwitchThumbNormal"
+            android:textColor="?attr/colorControlNormal"/>
 
-            android:background="@mipmap/desayuno"
-            android:layout_weight="0.3" />
-
-        <ImageButton
+        <Button
+            android:text="Almuerzo"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:id="@+id/imageButtonAlmuerzo"
+            android:id="@+id/buttonAlmuerzo"
+            android:layout_weight="0.3"
+            android:textAllCaps="false"
+            android:drawableTop="@mipmap/lunch_intent"
+            android:backgroundTint="?android:attr/colorSwitchThumbNormal"
+            android:textColor="?attr/colorControlNormal"/>
 
-            android:background="@mipmap/almuerzo"
-            android:layout_weight="0.3" />
-
-        <ImageButton
+        <Button
+            android:text="Cena"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:id="@+id/imageButtonCena"
-
-            android:background="@mipmap/cena"
-            android:layout_weight="0.3" />
+            android:id="@+id/buttonCena"
+            android:layout_weight="0.3"
+            android:textAllCaps="false"
+            android:drawableTop="@mipmap/dinner_intent"
+            android:backgroundTint="?android:attr/colorSwitchThumbNormal"
+            android:textColor="?attr/colorControlNormal" />
 
     </LinearLayout>
 
@@ -63,32 +72,39 @@
         android:layout_weight="0.06">
 
 
-        <ImageButton
+        <Button
+            android:text="Cafe y Te"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:id="@+id/imageButton"
+            android:id="@+id/buttonCafeyTe"
+            android:layout_weight="0.35"
+            android:textAllCaps="false"
+            android:drawableTop="@mipmap/coffeetea_intent"
+            android:backgroundTint="?android:attr/colorSwitchThumbNormal"
+            android:textColor="?attr/colorControlNormal"/>
 
-            android:background="@mipmap/cafeyte"
-
-            android:layout_weight="0.3" />
-
-        <ImageButton
+        <Button
+            android:text="Nocturna"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:id="@+id/imageButton3"
+            android:id="@+id/buttonNoturna"
+            android:layout_weight="0.35"
+            android:textAllCaps="false"
+            android:drawableTop="@mipmap/nightlife_intent"
+            android:backgroundTint="?android:attr/colorSwitchThumbNormal"
+            android:textColor="?attr/colorControlNormal" />
 
-            android:background="@mipmap/nocturna"
-            android:layout_weight="0.3" />
-
-        <ImageButton
+        <Button
+            android:text="Cosas por hacer"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:id="@+id/imageButton4"
+            android:id="@+id/buttonCosasHacer"
+            android:textAllCaps="false"
+            android:drawableTop="@mipmap/thingstodo_intent"
+            android:backgroundTint="?android:attr/colorSwitchThumbNormal"
+            android:textColor="?attr/colorControlNormal"/>
 
-            android:background="@mipmap/cosasporhacer"
-            android:layout_weight="0.3" />
     </LinearLayout>
-
 
 
 </LinearLayout>
