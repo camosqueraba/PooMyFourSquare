@@ -18,7 +18,7 @@
 
         <ImageView
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="316dp"
             android:id="@+id/imagenTitulo"
             android:src="@mipmap/imagemainarriba"
             android:background="@mipmap/imagemainarriba" />
@@ -28,7 +28,7 @@
         android:orientation="horizontal"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_weight="0 .06">
+        android:layout_weight="0.06">
 
         <Button
             android:text="Desayuno"
@@ -38,8 +38,9 @@
             android:layout_weight="0.3"
             android:drawableTop="@mipmap/breakfast_intent"
             android:textAllCaps="false"
-            android:backgroundTint="?android:attr/colorSwitchThumbNormal"
-            android:textColor="?attr/colorControlNormal"/>
+
+            android:textColor="?attr/colorControlNormal"
+             />
 
         <Button
             android:text="Almuerzo"
@@ -49,7 +50,7 @@
             android:layout_weight="0.3"
             android:textAllCaps="false"
             android:drawableTop="@mipmap/lunch_intent"
-            android:backgroundTint="?android:attr/colorSwitchThumbNormal"
+
             android:textColor="?attr/colorControlNormal"/>
 
         <Button
@@ -60,7 +61,7 @@
             android:layout_weight="0.3"
             android:textAllCaps="false"
             android:drawableTop="@mipmap/dinner_intent"
-            android:backgroundTint="?android:attr/colorSwitchThumbNormal"
+
             android:textColor="?attr/colorControlNormal" />
 
     </LinearLayout>
@@ -80,7 +81,7 @@
             android:layout_weight="0.35"
             android:textAllCaps="false"
             android:drawableTop="@mipmap/coffeetea_intent"
-            android:backgroundTint="?android:attr/colorSwitchThumbNormal"
+
             android:textColor="?attr/colorControlNormal"/>
 
         <Button
@@ -91,7 +92,7 @@
             android:layout_weight="0.35"
             android:textAllCaps="false"
             android:drawableTop="@mipmap/nightlife_intent"
-            android:backgroundTint="?android:attr/colorSwitchThumbNormal"
+
             android:textColor="?attr/colorControlNormal" />
 
         <Button
@@ -101,7 +102,7 @@
             android:id="@+id/buttonCosasHacer"
             android:textAllCaps="false"
             android:drawableTop="@mipmap/thingstodo_intent"
-            android:backgroundTint="?android:attr/colorSwitchThumbNormal"
+
             android:textColor="?attr/colorControlNormal"/>
 
     </LinearLayout>
